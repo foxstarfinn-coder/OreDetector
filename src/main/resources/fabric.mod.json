@@ -1,1 +1,19 @@
-
+{
+  "schemaVersion": 1,
+  "id": "oredetector",
+  "version": "1.0.0",
+  "name": "Ore Detector",
+  "description": "Keybind-based scanning tools",
+  "authors": ["foxstarfinn-coder"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.oredetector.OreDetectorMod"],
+    "client": ["com.oredetector.keybind.KeybindHandler"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "1.21.1",
+    "fabric-api": "*"
+  }
+}
