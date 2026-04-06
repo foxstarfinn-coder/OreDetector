@@ -1,0 +1,6 @@
+{
+  "key.oredetector.ore": "Scan for Ores",
+  "key.oredetector.find": "Find Configured Blocks",
+  "key.oredetector.base": "Detect Bases",
+  "category.oredetector": "Ore Detector"
+}
